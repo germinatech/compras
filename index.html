@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade - JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Compra de Produtos</h1>
+    <div id="lista">
+      <div class="card basis">
+        <img src="produto1.jpg" alt="imagem" />
+        <h2>Bifes de Carne</h2>
+        <p class="preco">R$10.47</p>
+      </div>
+      <div class="card basis">
+        <img src="produto2.jpg" alt="imagem" />
+        <h2>Cubos de Frango</h2>
+        <p class="preco">R$11.47</p>
+      </div>
+
+      <div class="card basis">
+        <img src="produto3.jpg" alt="imagem" />
+        <h2>Almôndega</h2>
+        <p class="preco">R$10.89</p>
+      </div>
+      <div class="card basis">
+        <img src="produto4.jpg" alt="imagem" />
+        <h2>Peito de Frango</h2>
+        <p class="preco">R$11.47</p>
+      </div>
+      <div class="card basis">
+        <img src="produto5.jpg" alt="imagem" />
+        <h2>Tiras de Carne</h2>
+        <p class="preco">R$13.47</p>
+      </div>
+      <div class="card basis">
+        <img src="produto6.jpg" alt="imagem" />
+        <h2>Salsicha</h2>
+        <p class="preco">R$17.59</p>
+      </div>
+    </div>
+    <button class="btn-adicionar">Adicionar ao carrinho</button>
+    <div class="carrinho">
+      <img id="img-carrinho" src="carrinho.svg" />
+      <hr />
+      <div id="inicio-carrinho"></div>
+      <!-- exemplo de item -->
+      <!-- <div class="item-compra">
+        <img class="item-imagem" src="produto4.jpg" alt="" />
+        <div class="item-info">
+          <h3>Peito de Frango</h3>
+          <p>R$ 0,00</p>
+        </div>
+        <input type="number" name="quantidade" />
+        <div class="item-valor">
+          <h3>Valor</h3>
+          <p>R$ 0,00</p>
+        </div>
+      </div> -->
+      <hr />
+      <button class="btn-calcular">Calcular</button>
+      <button class="btn-limpar">Remover</button>
+      <h3>Valor Total:</h3>
+      <span id="total-compra">R$0,00</span>
+    </div>
+  </body>
+</html>
